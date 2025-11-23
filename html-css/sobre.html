@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre mí · Proyecto Web</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">Proyecto Web</div>
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-icon" aria-label="Abrir o cerrar menú">☰</label>
+
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="sobre.html" class="activo">Sobre nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="seccion" aria-labelledby="titulo-sobre">
+      <h1 id="titulo-sobre">Sobre este proyecto</h1>
+      <p>Este sitio web ha sido realizado por Voro y Jaume como ejercicio final de Diseño de Interfaces Web. El objetivo
+        es demostrar el uso de
+        HTML y CSS para construir una interfaz clara, homogénea y fácil de usar.</p>
+      <p>La estructura es sencilla e incluye cabecera común, navegación, contenido principal y pie de página. Se ha
+        programado para la adaptación a diferentes tamaños de pantalla y la accesibilidad básica, siguiendo los resultados de
+        aprendizaje
+        indicados en la práctica.</p>
+    </section>
+
+    <section class="seccion" aria-labelledby="titulo-tecnicas">
+      <h2 id="titulo-tecnicas">Requisitos</h2>
+      <ul class="lista-simple">
+        <li>RA1. Planificar la creación de una interfaz web valorando y aplicando especificaciones de diseño.</li>
+        <li>RA2. Crear interfaces web homogéneos definiendo y aplicando estilos.</li>
+        <li>RA3. Preparar archivos multimedia para la web, analizando sus características y manejando herramientas
+          específicas.</li>
+        <li>RA4. Integrar contenido multimedia en documentos web valorando su aportación y seleccionando adecuadamente
+          los elementos interactivos.</li>
+        <li>RA5. Desarrollar interfaces web accesibles, analizando las pautas establecidas y aplicando técnicas de
+          verificación.</li>
+        <li>RA6. Desarrollar interfaces web amigables analizando y aplicando las pautas de usabilidad establecidas.</li>
+      </ul>
+    </section>
+
+    <section class="seccion" aria-labelledby="titulo-video">
+      <h2 id="titulo-video">Presentación en vídeo</h2>
+      <video class="video-proyecto" controls>
+        <source src="assets/media/presentacion-proyecto.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de vídeo.
+      </video>
+      <p>Este vídeo muestra de forma rápida cómo se visualiza la interfaz en diferentes tamaños de pantalla, destacando
+        el menú hamburguesa y la adaptación responsive.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Proyecto de interfaz web · HTML y CSS</p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre mí · Proyecto Web</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-screen bg-slate-100 text-slate-900">
+  <header class="bg-[#111827] text-[#f9fafb]">
+    <div class="max-w-[960px] mx-auto flex items-center justify-between px-6 py-4">
+      <div class="font-semibold tracking-wide">Proyecto Web</div>
+      <nav>
+        <ul class="flex gap-6 text-sm md:text-base">
+          <li><a href="index.html" class="pb-1 border-b-2 border-transparent hover:border-[#f9fafb]">Inicio</a></li>
+          <li><a href="sobre.html" class="pb-1 border-b-2 border-[#60a5fa]">Sobre
+              nosotros</a></li>
+          <li><a href="contacto.html" class="pb-1 border-b-2 border-transparent hover:border-[#f9fafb]">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-10 space-y-10">
+    <section class="bg-white rounded-xl shadow px-6 py-8 space-y-4" aria-labelledby="titulo-sobre">
+      <h1 id="titulo-sobre" class="text-2xl font-bold text-slate-900">Sobre este proyecto</h1>
+      <p class="text-slate-700 leading-relaxed">
+        Este sitio web ha sido realizado por Voro y Jaume como ejercicio final de Diseño de Interfaces Web. El objetivo
+        es demostrar el uso de HTML y Tailwind para construir una interfaz clara, homogénea y fácil de usar.
+      </p>
+      <p class="text-slate-700 leading-relaxed">
+        La estructura es sencilla e incluye cabecera común, navegación, contenido principal y pie de página. Se ha
+        programado para la adaptación a diferentes tamaños de pantalla y la accesibilidad básica, siguiendo los resultados de
+        aprendizaje
+        indicados en la práctica.
+      </p>
+    </section>
+
+    <section class="bg-white rounded-xl shadow px-6 py-8 space-y-4" aria-labelledby="titulo-tecnicas">
+      <h2 id="titulo-tecnicas" class="text-xl font-semibold text-slate-900">Requisitos</h2>
+      <ul class="list-disc pl-6 space-y-1 text-sm text-slate-700">
+        <li>RA1. Planificar la creación de una interfaz web valorando y aplicando especificaciones de diseño.</li>
+        <li>RA2. Crear interfaces web homogéneos definiendo y aplicando estilos.</li>
+        <li>RA3. Preparar archivos multimedia para la web, analizando sus características y manejando herramientas
+          específicas.</li>
+        <li>RA4. Integrar contenido multimedia en documentos web valorando su aportación y seleccionando adecuadamente
+          los elementos interactivos.</li>
+        <li>RA5. Desarrollar interfaces web accesibles, analizando las pautas establecidas y aplicando técnicas de
+          verificación.</li>
+        <li>RA6. Desarrollar interfaces web amigables analizando y aplicando las pautas de usabilidad establecidas.</li>
+      </ul>
+    </section>
+
+    <section class="bg-white rounded-xl shadow px-6 py-8 space-y-4" aria-labelledby="titulo-video">
+      <h2 id="titulo-video" class="text-xl font-semibold text-slate-900">Presentación en vídeo</h2>
+      <video class="w-full rounded-lg outline-none" controls>
+        <source src="assets/media/presentacion-proyecto.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de vídeo.
+      </video>
+      <p class="text-sm text-slate-700">
+        Este vídeo muestra de forma rápida cómo se visualiza la interfaz en diferentes tamaños de pantalla, destacando
+        el menú hamburguesa y la adaptación responsive.
+      </p>
+    </section>
+  </main>
+
+  <footer class="mt-10 border-t border-slate-200 bg-slate-50">
+    <div class="max-w-5xl mx-auto px-4 py-4 text-center text-xs text-slate-600">
+      Proyecto de interfaz web · HTML y Tailwind
+    </div>
+  </footer>
+</body>
+
+</html>

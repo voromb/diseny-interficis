@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio · Proyecto Web</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-screen bg-slate-100 text-slate-900">
+  <header class="bg-[#111827] text-[#f9fafb]">
+    <div class="max-w-[960px] mx-auto flex items-center justify-between px-6 py-4">
+      <div class="font-semibold tracking-wide">Proyecto Web</div>
+      <nav>
+        <ul class="flex gap-6 text-sm md:text-base">
+          <li><a href="index.html" class="pb-1 border-b-2 border-[#60a5fa]">Inicio</a></li>
+          <li><a href="sobre.html" class="pb-1 border-b-2 border-transparent hover:border-[#f9fafb]">Sobre nosotros</a>
+          </li>
+          <li><a href="contacto.html" class="pb-1 border-b-2 border-transparent hover:border-[#f9fafb]">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-[960px] mx-auto px-6 py-6 space-y-8">
+    <section class="rounded-2xl bg-gradient-to-br from-[#1d4ed8] to-[#3b82f6] px-6 py-12 text-[#f9fafb] mb-4"
+      aria-labelledby="titulo-principal">
+      <div class="max-w-[640px] space-y-4">
+        <h1 id="titulo-principal" class="text-[clamp(1.8rem,4vw,2.4rem)] font-bold">
+          Interfaz web, para el proyecto de Voro y Jaume para Interfaces Web
+        </h1>
+        <p class="leading-relaxed">
+          Este proyecto muestra una página web responsive creada solo con HTML y Tailwind, cuidando el diseño, la
+          accesibilidad y la usabilidad. Intentando cumplir todos requisitos pedidos en el dossier que se nos ha
+          propuesto via la actividad
+        </p>
+        <a class="inline-flex items-center justify-center rounded-full bg-[#f9fafb] px-6 py-3 text-sm font-semibold text-[#1d4ed8] shadow hover:bg-[#e5e7eb] focus:outline-none focus:ring-2 focus:ring-[#3b82f6] focus:ring-offset-2 focus:ring-offset-transparent"
+          href="sobre.html">
+          Ver más detalles
+        </a>
+      </div>
+    </section>
+
+    <section class="space-y-6" aria-labelledby="titulo-caracteristicas">
+      <h2 id="titulo-caracteristicas" class="text-xl md:text-2xl font-semibold text-slate-900">
+        Características principales
+      </h2>
+      <div class="grid gap-6 md:grid-cols-3">
+        <article class="bg-white rounded-xl shadow p-6 space-y-2">
+          <h3 class="font-semibold text-slate-900">Diseño responsive</h3>
+          <p class="text-sm text-slate-700">La página se adapta a móviles, tablet y escritorio usando flexbox, grid y
+            media queries.</p>
+        </article>
+        <article class="bg-white rounded-xl shadow p-6 space-y-2">
+          <h3 class="font-semibold text-slate-900">Menú accesible</h3>
+          <p class="text-sm text-slate-700">El menú superior se convierte en un menú hamburguesa en pantallas pequeñas
+            para facilitar la navegación.</p>
+        </article>
+        <article class="bg-white rounded-xl shadow p-6 space-y-2">
+          <h3 class="font-semibold text-slate-900">Buena legibilidad</h3>
+          <p class="text-sm text-slate-700">Se utilizan colores con contraste suficiente, tamaños de texto cómodos y
+            jerarquía clara de títulos.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="space-y-6" aria-labelledby="titulo-galeria">
+      <h2 id="titulo-galeria" class="text-xl md:text-2xl font-semibold text-slate-900">
+        Galería del diseño
+      </h2>
+      <div class="grid gap-6 md:grid-cols-2">
+        <figure class="bg-white rounded-xl shadow overflow-hidden">
+          <img src="assets/img/maqueta-escritorio.png" alt="Vista del diseño de la página en un ordenador de escritorio"
+            class="w-full object-cover">
+          <figcaption class="px-4 py-3 text-sm text-slate-700">Diseño de la página en pantalla de escritorio.
+          </figcaption>
+        </figure>
+        <figure class="bg-white rounded-xl shadow overflow-hidden">
+          <img src="assets/img/maqueta-movil.png" alt="Vista del diseño de la página en un teléfono móvil"
+            class="w-full object-cover">
+          <figcaption class="px-4 py-3 text-sm text-slate-700">Diseño responsive adaptado a móvil.</figcaption>
+        </figure>
+      </div>
+      <div class="bg-white rounded-xl shadow p-6 space-y-4">
+        <h2 id="titulo-video" class="text-lg md:text-xl font-semibold text-slate-900">Presentación en vídeo</h2>
+        <video class="w-full rounded-lg outline-none" controls autoplay muted loop>
+          <source src="assets/media/presentacion-proyecto.mp4" type="video/mp4">
+          Tu navegador no soporta la reproducción de vídeo.
+        </video>
+        <p class="text-sm text-slate-700">
+          Este vídeo muestra de forma rápida cómo se visualiza la interfaz en diferentes tamaños de pantalla, destacando
+          el menú hamburguesa y la adaptación responsive.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="mt-8 bg-[#111827] text-[#f9fafb]">
+    <div class="max-w-[960px] mx-auto px-6 py-4 text-center text-sm">
+      Proyecto de interfaz web · HTML y Tailwind
+    </div>
+  </footer>
+
+</body>
+
+</html>

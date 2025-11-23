@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio · Proyecto Web</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">Proyecto Web</div>
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-icon" aria-label="Abrir o cerrar menú">☰</label>
+
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html" class="activo">Inicio</a></li>
+        <li><a href="sobre.html">Sobre nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="hero" aria-labelledby="titulo-principal">
+      <div class="hero-contenido">
+        <h1 id="titulo-principal">Interfaz web, para el proyecto de Voro y Jaume para Interfaces Web</h1>
+        <p>Este proyecto muestra una página web responsive creada solo con HTML y CSS, cuidando el diseño, la
+          accesibilidad y la usabilidad.Intentando cumplir todos requisitos pedidos en el dossier que se nos ha
+          propuesto via la actividad</p>
+        <a class="boton-primario" href="sobre.html">Ver más detalles</a>
+      </div>
+    </section>
+
+    <section class="seccion" aria-labelledby="titulo-caracteristicas">
+      <h2 id="titulo-caracteristicas">Características principales</h2>
+      <div class="grid-tres">
+        <article class="tarjeta">
+          <h3>Diseño responsive</h3>
+          <p>La página se adapta a móviles, tablet y escritorio usando flexbox, grid y media queries.</p>
+        </article>
+        <article class="tarjeta">
+          <h3>Menú accesible</h3>
+          <p>El menú superior se convierte en un menú hamburguesa en pantallas pequeñas para facilitar la navegación.
+          </p>
+        </article>
+        <article class="tarjeta">
+          <h3>Buena legibilidad</h3>
+          <p>Se utilizan colores con contraste suficiente, tamaños de texto cómodos y jerarquía clara de títulos.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="seccion" aria-labelledby="titulo-galeria">
+      <h2 id="titulo-galeria">Galería del diseño</h2>
+      <div class="galeria">
+        <figure>
+          <img src="assets/img/maqueta-escritorio.png"
+            alt="Vista del diseño de la página en un ordenador de escritorio">
+          <figcaption>Diseño de la página en pantalla de escritorio.</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/maqueta-movil.png" alt="Vista del diseño de la página en un teléfono móvil">
+          <figcaption>Diseño responsive adaptado a móvil.</figcaption>
+        </figure>
+      </div>
+      <div class="video-presentacion">
+        <h2 id="titulo-video">Presentación en vídeo</h2>
+        <video class="video-proyecto" controls autoplay muted loop>
+          <source src="assets/media/presentacion-proyecto.mp4" type="video/mp4">
+          Tu navegador no soporta la reproducción de vídeo.
+        </video>
+        <p>Este vídeo muestra de forma rápida cómo se visualiza la interfaz en diferentes tamaños de pantalla,
+          destacando
+          el menú hamburguesa y la adaptación responsive.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Proyecto de interfaz web · HTML y CSS</p>
+  </footer>
+</body>
+
+</html>
