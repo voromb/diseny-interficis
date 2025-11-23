@@ -1,6 +1,6 @@
 # Guía de estilos del proyecto
 
-Este documento resume de forma sencilla los estilos utilizados en el proyecto, tanto en la versión **HTML + CSS** (`html-css/`) como en la versión **Tailwind** (`tailwind/`).
+Este documento resume los estilos utilizados en el proyecto, tanto en la versión **HTML + CSS** (`html-css/`) como en la versión **Tailwind** (`tailwind/`).
 
 ## 1. Tipografía y base
 
@@ -87,7 +87,7 @@ En la versión HTML+CSS hay un menú hamburguesa responsive controlado con un `<
 
 ## 8. Listas y texto en "Sobre nosotros"
 
-- Sección descriptiva del proyecto con dos párrafos.
+- Descripcion del proyecto con dos párrafos.
 - Sección "Requisitos" con lista de resultados de aprendizaje (RA1–RA6):
   - Lista con viñetas (`disc`).
   - Espaciado vertical pequeño entre elementos.
@@ -116,6 +116,5 @@ En la versión HTML+CSS hay un menú hamburguesa responsive controlado con un `<
   - `alt` descriptivo en las imágenes.
   - Mensaje alternativo dentro de `<video>` para navegadores que no soporten vídeo HTML5.
 
----
 
 
